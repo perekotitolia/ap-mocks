@@ -205,8 +205,8 @@ export default function App(){
             </div>
 
             <div className="flex gap-2">
-              <button className="rounded-2xl px-4 py-2 text-sm bg-slate-900 text-white">Зберегти як чернетку</button>
-              <button className="rounded-2xl px-4 py-2 text-sm bg-emerald-600 text-white">Надіслати вимоги постачальнику</button>
+              <button  onclick="location.href='./m-buyer-enrichment.html'" className="rounded-2xl px-4 py-2 text-sm bg-slate-900 text-white">Зберегти як чернетку</button>
+              <button  onclick="location.href='./s-supplier-enrichment.html'" className="rounded-2xl px-4 py-2 text-sm bg-emerald-600 text-white">Надіслати вимоги постачальнику</button>
             </div>
           </div>
         </div>
