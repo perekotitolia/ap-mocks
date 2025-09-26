@@ -195,7 +195,7 @@ export default function App(){
         </div>
 
         <div className="flex gap-2 pt-2">
-          <button className="rounded-2xl px-4 py-2 text-sm bg-slate-900 text-white" disabled={invalidCount>0} onClick={()=>setSubmitted(true)}>Відправити заявку</button>
+          <button className="rounded-2xl px-4 py-2 text-sm bg-slate-900 text-white" disabled={invalidCount>0} onclick="location.href='./m-raw-requests.html'">Відправити заявку</button>
           <button className="rounded-2xl px-4 py-2 text-sm hover:bg-slate-100">Зберегти як чернетку</button>
         </div>
 
